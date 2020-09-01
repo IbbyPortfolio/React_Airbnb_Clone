@@ -8,7 +8,11 @@ import { Avatar } from '@material-ui/core';
 function Header() {
    return (
       <div className='header'>
-         <img className='header__icon' src='./assets/image/airbnb.png' alt='' />
+         <img
+            className='header__icon'
+            src='https://i.pinimg.com/originals/3c/bf/be/3cbfbe148597341fa56f2f87ade90956.png'
+            alt=''
+         />
          <div className='header__center'>
             <input type='text' />
             <SearchIcon />
